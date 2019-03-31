@@ -31,10 +31,35 @@ public class MainActivity extends AppCompatActivity {
             Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
             startActivity(intentNotes);
             return true;
-        } else if (id == R.id.action_spinner) {
+        } else if (id == R.id.action_open_spinner) {
             Intent intentSpinner = new Intent(MainActivity.this,
                     SpinnerActivity.class);
             startActivity(intentSpinner);
+            return true;
+        } else if (id == R.id.action_open_checkbox) {
+            Intent intentCheckBox = new Intent(MainActivity.this,
+                    CheckBoxActivity.class);
+            startActivity(intentCheckBox);
+            return true;
+        } else if (id == R.id.action_open_calendarview) {
+            Intent intentCalendarView = new Intent(MainActivity.this,
+                    CalendarViewActivity.class);
+            startActivity(intentCalendarView);
+            return true;
+        } else if (id == R.id.action_open_helloworld) {
+            Intent intentHelloWorld = new Intent(MainActivity.this,
+                    HelloWorldActivity.class);
+            startActivity(intentHelloWorld);
+            return true;
+        } else if (id == R.id.action_open_viewphoto) {
+            Intent intentViewPhoto = new Intent(MainActivity.this,
+                    ViewPhotoActivity.class);
+            startActivity(intentViewPhoto);
+            return true;
+        } else if (id == R.id.action_open_androidkozlov) {
+            Intent intentSplashScreen = new Intent(MainActivity.this,
+                    SplashScreenActivity.class);
+            startActivity(intentSplashScreen);
             return true;
         }
 

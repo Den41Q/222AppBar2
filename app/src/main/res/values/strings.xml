@@ -2,6 +2,14 @@
     <string name="app_name">2.2.2AppBar</string>
     <string name="SaveNote">Сохранить</string>
     <string name="address">Показать адрес</string>
+    <string name="bankCardChkBx">С банковской карты</string>
+    <string name="mobilePhoneChkBx">С мобильного телефона</string>
+    <string name="cashAddressChkBx">Наличными по адресу</string>
+    <string name="inputInfo">Информация об оплате</string>
+    <string name="inputMoney">Ввод денег</string>
+    <string name="chooseStartDate">Дата-время старта задачи:</string>
+    <string name="chooseEndDate">Дата-время окончания задачи:</string>
+    <string name="btnOK">OK</string>
     <string-array name="countries">
         <item>Россия</item>
         <item>Украина</item>

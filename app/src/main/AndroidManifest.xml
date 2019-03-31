@@ -18,6 +18,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".NotesActivity"/>
+        <activity android:name=".SpinnerActivity"/>
+        <activity android:name=".CheckBoxActivity"/>
+        <activity android:name=".CalendarViewActivity"/>
+        <activity android:name=".HelloWorldActivity"/>
+        <activity android:name=".ViewPhotoActivity"/>
+        <activity android:name=".SplashScreenActivity"/>
     </application>
 
 </manifest>
