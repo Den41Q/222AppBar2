@@ -14,4 +14,10 @@
         android:orderInCategory="100"
         android:title="Записная книжка"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_spinner"
+        android:orderInCategory="100"
+        android:title="2.1.2 Spinner"
+        app:showAsAction="never" />
 </menu>

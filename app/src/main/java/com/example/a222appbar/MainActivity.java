@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,12 +28,15 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_open_notes) {
-            Toast.makeText(MainActivity.this, "Открыть записную книжку", Toast.LENGTH_LONG).show();
+            Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
+            startActivity(intentNotes);
+            return true;
+        } else if (id == R.id.action_spinner) {
+            Intent intentSpinner = new Intent(MainActivity.this,
+                    SpinnerActivity.class);
+            startActivity(intentSpinner);
             return true;
         }
-
-        Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
-        startActivity(intentNotes);
 
         return super.onOptionsItemSelected(item);
     }
